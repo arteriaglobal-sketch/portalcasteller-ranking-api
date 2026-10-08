@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: portalcasteller-ranking-api
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    autoDeploy: true
